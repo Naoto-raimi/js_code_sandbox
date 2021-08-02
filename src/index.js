@@ -50,9 +50,26 @@
 // val5.push("monkey");
 // console.log(val5);
 
-// テンプレート構文
-const name = "ジャケえ";
-const age = 28;
+// // テンプレート構文
+// const name = "ジャケえ";
+// const age = 28;
 
-const message1 = `私は${name}です．年齢は${age}です`;
-console.log(message1);
+// const message1 = `私は${name}です．年齢は${age}です`;
+// console.log(message1);
+
+// アロー関数
+// function func1(str) {
+//   return str;
+// }
+
+// const func1 = function (str) {
+//   return str;
+// };
+
+// const func2 = (str) => {
+//   return str;
+// };
+
+// return は一行なら省略化
+const func2 = (str) => str;
+console.log(func2("func2"));
